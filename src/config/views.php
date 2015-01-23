@@ -2,13 +2,13 @@
 
 return array(
     // layouts
-    'master' => 'syntara::layouts.dashboard.master',
-    'header' => 'syntara::layouts.dashboard.header',
+    'master' => 'users.layouts.dashboard.master2',
+    'header' => 'users.layouts.dashboard.header',
     'permissions-select' => 'syntara::layouts.dashboard.permissions-select',
 
     // dashboard
     'dashboard-index' => 'syntara::dashboard.index',
-    'login' => 'syntara::dashboard.login',
+    'login' => 'users.dashboard.login2',
     'error' => 'syntara::dashboard.error',
 
     // users
@@ -31,5 +31,4 @@ return array(
     'permissions-list' => 'syntara::permission.list-permissions',
     'permission-create' => 'syntara::permission.new-permission',
     'permission-edit' => 'syntara::permission.show-permission',
-
 );
